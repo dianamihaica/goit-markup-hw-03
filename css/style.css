@@ -55,6 +55,7 @@
   display: flex;
   align-items: center;
   width: 80%;
+  justify-content: space-between;
 }
 /* a:hover {
   text-decoration: none;
@@ -77,6 +78,7 @@ h1 {
   line-height: 60px;
   letter-spacing: 2.64px;
   text-transform: uppercase;
+  padding: 200px;
 }
 h2 {
   color: #212121;
@@ -140,6 +142,8 @@ letter-spacing: 1.08px;
 .sectionone {
   background: #2f303a;
   text-align: center;
+  Width 100%
+  
 }
 .button-request {
   background-color: #2196f3;
@@ -190,9 +194,9 @@ address {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-evenly; */
 }
 
 /* .global-header{
@@ -208,9 +212,24 @@ address {
   height: 38px;
   top: 174px;
   left: 614px;
+  
 }
 .buttons:hover,
 .buttons:focus {
   color: #ffffff;
   background-color: #2196f3;
+  
+}
+.section-second{
+  display: flex;
+  align-items: center;
+}
+.section-third{
+  display: flex;
+  align-items: center;
+  
+}
+.section-fourth{
+  display: flex;
+  align-items: center;
 }
