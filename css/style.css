@@ -20,6 +20,9 @@
     line-height: normal;
     letter-spacing: 0.78px;
     text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-left: 210px;
     .logo-first {
       color: #2196f3;
     }
@@ -56,6 +59,7 @@
   align-items: center;
   width: 80%;
   justify-content: space-between;
+  margin-left: 100px;
 }
 /* a:hover {
   text-decoration: none;
@@ -78,7 +82,7 @@ h1 {
   line-height: 60px;
   letter-spacing: 2.64px;
   text-transform: uppercase;
-  padding: 200px;
+  
 }
 h2 {
   color: #212121;
@@ -89,6 +93,7 @@ h2 {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.08px;
+  margin-top: 150px;
 }
 
 h3 {
@@ -142,7 +147,9 @@ letter-spacing: 1.08px;
 .sectionone {
   background: #2f303a;
   text-align: center;
-  Width 100%
+  box-sizing: border-box;
+  padding: 200px 450px 250px 450px;
+  
   
 }
 .button-request {
@@ -152,6 +159,7 @@ letter-spacing: 1.08px;
   height: 50px;
   top: 430px;
   left: 700px;
+  margin-top: 20px;
 
 }
 .button-request:hover {
@@ -185,6 +193,10 @@ address {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.42px;
+  box-sizing: border-box;
+  padding: 50px;
+  margin:0px;
+
 }
 .info {
   color: #757575;
@@ -194,9 +206,8 @@ address {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
-  /* display: flex;
-  align-items: center;
-  justify-content: space-evenly; */
+  justify-content:space-between;
+  margin-right: 100px;
 }
 
 /* .global-header{
@@ -212,6 +223,7 @@ address {
   height: 38px;
   top: 174px;
   left: 614px;
+ 
   
 }
 .buttons:hover,
@@ -223,13 +235,50 @@ address {
 .section-second{
   display: flex;
   align-items: center;
+  gap:30px;
+  margin-left:215px;
+  margin-right: 215px;
+  margin-top: 150px;
 }
 .section-third{
   display: flex;
   align-items: center;
+  gap:30px;
+  margin-left:215px;
+  margin-right: 215px;
+  margin-top: 50px;
   
 }
 .section-fourth{
+  background-color: #F5F4FA;
   display: flex;
   align-items: center;
+  gap:30px;
+  /* margin-left:215px;
+  margin-right: 215px;
+  margin-top: 50px;
+  margin-bottom: 100px; */
+  box-sizing: border-box;
+  padding: 300px;
+}
+.info-container{
+  display: flex;
+  
+}
+.images{
+  display: flex;
+  align-items: center;
+  gap:30px;
+  margin-bottom: 94px;
+  padding: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.buttons-portofolio{
+  display: flex;
+  align-items: center;
+  gap:30px;
+ margin-left: 700px;
+ margin-top: 94px;
+ margin-bottom: 30px;
 }
