@@ -10,21 +10,33 @@
   text-decoration: none;
   display: flex;
   align-items: center;
+  width: 1200px;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-bottom: 1px solid #ececec;
+  
   .logo {
+    
     width: 154px;
     height: 31px;
-    font-family: 'Raleway';
+    font-family: var(--font-family);
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
     text-decoration: none;
-    margin-top: 20px;
-    margin-bottom: 25px;
-    margin-left: 210px;
+   
+    
     .logo-first {
       color: #2196f3;
+      font-family: var(--font-family);
+      font-weight: 700;
     }
     .logo-second {
       color: #000;
@@ -35,21 +47,33 @@
 }
 .logo-first {
   color: #2196f3;
+  font-family: var(--font-family);
+      font-weight: 700;
 }
 .logo-third{
   color:#fff;
 }
 .logo-second {
-  color: #000;}
-.global-header .main-navigation a:link,
-/* .global-header .main-navigation a:visited {
-  color: var(--link-color);
-} */
+  color: #000;
+}
+span{
+  align-items: center;
+  width: 154px;
+  height: 31px;
+  font-family: var(--font-family);
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+  text-decoration: none;
+}
 .global-header .main-navigation ul{
   display: flex;
   width: 150px;
   justify-content: space-evenly;
   align-items: center;
+  gap:30px;
 }
 .global-header .main-navigation a:hover {
   color: #2196f3;
@@ -72,10 +96,12 @@
   font-weight: 500;
   size: 14px;
 } */
+
+
 h1 {
   color: #fff;
   text-align: center;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 44px;
   font-style: normal;
   font-weight: 900;
@@ -87,7 +113,7 @@ h1 {
 h2 {
   color: #212121;
   text-align: center;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -109,7 +135,7 @@ h3 {
 h4 {
   color: #212121;
   text-align: center;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -119,7 +145,7 @@ h4 {
 h5 {
   color: #757575;
   text-align: center;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -128,16 +154,16 @@ h5 {
 }
 p {
   color: #757575;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.42px;
 }
-span{
+h6{
  color: #212121;
-font-family: 'Roboto';
+font-family: "Roboto";
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
@@ -167,10 +193,13 @@ letter-spacing: 1.08px;
   background-color: #188ce8;
 }
 a{
-    text-decoration: none;
+    text-decoration:none;
+    color: #000;
+
 }
 ul {
   list-style-type: none;
+  color:#fff;
 }
 .contact {
   color: #212121;
@@ -187,7 +216,7 @@ footer {
 }
 address {
   color: #fff;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -200,7 +229,7 @@ address {
 }
 .info {
   color: #757575;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
