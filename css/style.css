@@ -218,11 +218,18 @@ address {
   color: var(--highlight-color);
 }
 .buttons {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.85px;
   color: #212121;
   background-color: #f5f4fa;
-  height: 38px;
+  height: 26px;
   top: 174px;
   left: 614px;
+  cursor: pointer;
+  font-family: inherit;
+  border: none;
+  min-width: 100px;
  
   
 }
@@ -266,19 +273,42 @@ address {
   
 }
 .images{
+  padding-top: 94px;
+  margin: auto;
+  width: 1200px;
   display: flex;
-  align-items: center;
-  gap:30px;
-  margin-bottom: 94px;
-  padding: 100px;
-  margin-left: 300px;
-  margin-right: 300px;
+  column-gap: 30px;
+  
+}
+.portofolio{
+  margin: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.portofolio-card{
+  width: 370px;
+  background-color: #fff;
+}
+.portofolio-text{
+  display: flex;
+  flex-direction: column;
+  padding-left: 24px;
+  border-bottom: 1px solid #eee;
+}
+.portofolio-text span{
+  margin-bottom: 4px;
+}
+.portofolio-text h5{
+  margin-bottom: 20px;
 }
 .buttons-portofolio{
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap:30px;
- margin-left: 700px;
- margin-top: 94px;
- margin-bottom: 30px;
+  width: 516px;
+  margin: auto;
+  column-gap: 8px;
 }
