@@ -96,7 +96,10 @@ span{
   font-weight: 500;
   size: 14px;
 } */
-
+body{
+  margin-left:0px;
+  margin-right:0px ;
+}
 
 h1 {
   color: #fff;
@@ -277,11 +280,10 @@ address {
   margin-top: 150px;
 }
 .section-third{
+  justify-content: center;
   display: flex;
   align-items: center;
   gap:30px;
-  margin-left:215px;
-  margin-right: 215px;
   margin-top: 50px;
   
 }
@@ -289,11 +291,8 @@ address {
   background-color: #F5F4FA;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap:30px;
-  /* margin-left:215px;
-  margin-right: 215px;
-  margin-top: 50px;
-  margin-bottom: 100px; */
   box-sizing: border-box;
   padding: 300px;
 }
