@@ -294,7 +294,8 @@ address {
   justify-content: center;
   gap:30px;
   box-sizing: border-box;
-  padding: 300px;
+  padding: 150px;
+  margin:0px;
 }
 .info-container{
   display: flex;
